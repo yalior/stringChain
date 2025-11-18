@@ -23,11 +23,13 @@ public class SystemTest {
     }
 
     @Test
-    public void testSystem_NotWrongValue(){
+    public void testSystem_Repetable(){
         A a = buildChain();
-        String result=a.process("");
-        assertNotEquals("HELLO", result);
-        assertEquals(5, result.length());
-    }
+        String firstRun=a.process("");
+        String secondRun=a.process("");
+        assertEquals("HELLO", firstRun);
+        assertEquals("HELLO", secondRun);
+        assertEquals(firstRun, secondRun);
+}
 }
 
