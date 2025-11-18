@@ -11,8 +11,8 @@ public class systemTest {
 	    String result=runner.run();
 	    assertEquals("HELLO", result);
 
-        // קוראים ל־C — לא לסטאב!
-       
+
+        
     }
 
 }
