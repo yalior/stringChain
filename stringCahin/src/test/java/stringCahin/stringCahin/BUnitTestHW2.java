@@ -1,7 +1,10 @@
 package stringCahin.stringCahin;
 import org.junit.Test;
+
+import stringCahin.stringCahin.B;
+
 import static org.junit.Assert.*;
-public class BUnitTest {
+public class BUnitTestHW2 {
     @Test // זה כן מצא בבדיקה
     public void testWithBStub(){
         CStub stub=new CStub();
